@@ -325,4 +325,4 @@ class WebpackLuJunGenerator extends Generator {
   }
 }
 
-export default WebpackLuJunGenerator;
+module.exports = WebpackLuJunGenerator;

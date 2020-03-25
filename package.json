@@ -1,6 +1,6 @@
 {
   "name": "generator-lujun-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lujun first cli",
   "main": "generators/app/index.js",
   "scripts": {
