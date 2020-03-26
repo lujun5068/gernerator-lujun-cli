@@ -93,7 +93,7 @@ class WebpackLuJunGenerator extends Generator {
         chalk.grey('Up to date ')
         + `npm i -g ${pkg.name}`
       );
-      this.log(boxen(messages.join('\n'), BOXEN_OPTS));
+      this.log(boxen(messages.join('\n'), BOXEN_OPTION)); 
       beeper();
       this.log('🛠️  Finish checking your Generator-lujun-cli. CAUTION ↑↑', '⚠️');
     } else {
@@ -320,7 +320,7 @@ class WebpackLuJunGenerator extends Generator {
       this.log();
       this.log(
         boxen(info, {
-          ...BOXEN_OPTS,
+          ...BOXEN_OPTION,
           ...{
               borderColor: 'white'
           }
