@@ -175,7 +175,11 @@ class WebpackLuJunGenerator extends Generator {
         }
         return true;
       }
-    }]
+    }];
+
+    return this.prompt(opts).then(({dirName}) => {
+      this.dirName = dirName;
+    });
   }
 
   _askForOverWrite() {
